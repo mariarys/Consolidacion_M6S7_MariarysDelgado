@@ -35,3 +35,6 @@ def mostrar(request):
     }
 
     return render(request, 'libros/lista_libros.html', contexto) 
+
+def footer(request):
+    return render(request, 'libros/footer.html')  # Renderiza footer.html
